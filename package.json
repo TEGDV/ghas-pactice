@@ -1,0 +1,43 @@
+{
+  "name": "create-package-json",
+  "version": "1.0.0",
+  "description": "Create a package.json",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "create-package-json": "bin/create-package-json"
+  },
+  "scripts": {
+    "test": "semistandard && mocha",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TEGDV/ghas-pactice"
+  },
+  "keywords": [
+    "scaffold",
+    "generator",
+    "package.json",
+    "packagejson",
+    "create"
+  ],
+  "author": "Jair Aguilar <apjair97@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@npmcli/name-from-folder": "^2.0.0",
+    "@npmcli/package-json": "^5.0.0",
+    "fs-extra": "^11.1.1",
+    "loggerr": "^3.0.0",
+    "npm-package-arg": "^11.0.1",
+    "opta": "^1.0.0",
+    "safe-parse-list": "^0.1.1",
+    "validate-npm-package-name": "^5.0.0"
+  },
+  "devDependencies": {
+    "c8": "^8.0.1",
+    "fs-test-fixtures": "^0.1.3",
+    "mocha": "^10.2.0",
+    "semistandard": "^17.0.0",
+    "standard-version": "^9.0.0"
+  }
+}
